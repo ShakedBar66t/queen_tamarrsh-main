@@ -26,7 +26,7 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
     const isMiniScreens = useMediaQuery('(max-width: 370px)')
 
     const sectionStyles = `flex main-layout gap-12 h-fit pb-10 md:h-full md:pb-0 ${isAboveMediumScreens ? 'flex-row pt-36' : 'flex-col pt-28'}`
-    const h1Styles = `logo relative md:before:content-["KoolKat_Tattoos"] before:max-w-[100%] before:absolute before:-top-16 before:-left-8 cursor-default ${isMiniScreens ? 'text-5xl' : 'text-6xl'} before:text-9xl before:text-gray-20-trans before:z-[-1] mb-2 uppercase`
+    const h1Styles = `logo relative md:before:content-["Queen_Tamar"] before:max-w-[100%] before:absolute before:-top-16 before:-left-8 cursor-default ${isMiniScreens ? 'text-5xl' : 'text-6xl'} before:text-9xl before:text-gray-20-trans before:z-[-1] mb-2 uppercase`
     const imgStyles = `object-contain ${isAboveMediumScreens ? 'max-w-[600px]' : 'w-full'}`
     return <section
         className={sectionStyles}
@@ -42,7 +42,7 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
             }}
             onViewportEnter={()=> { setSelectedPage(SelectedPage.Home) }}
         >
-            <h1 className={h1Styles}>KoolKat Tattoos</h1>
+            <h1 className={h1Styles}>Queen Tamar</h1>
             <h2 className="cursor-default text-4xl mb-6">Old school steady hand.</h2>
             <p className="cursor-default font-montserrat mb-8">Welcome to Koolkat, where ink drips old-school and style bleeds cool. Strap in and let our tattoos do the loud talking.</p>
             <div className='flex w-full max-w-[206px] justify-between items-center'>
