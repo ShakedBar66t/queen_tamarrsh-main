@@ -54,8 +54,8 @@ export default function Benefits({ setSelectedPage }: Props) {
                 hidden: { opacity: 0, x: -60 },
                 visible: { opacity: 1, x: 0 }
             }}>
-            <h3 className="header-title pb-4">More than just a tattoo</h3>
-            <p className="card-paragraph pb-2">Koolkat Tattoo Shop offers versatile tattoo services. Choose a custom design, pick from our pre-made flashes, or bring your own idea. With international acclaim and vast experience, particularly in Europe, Koolkat ensures your unique vision comes to life on your skin.</p>
+            <h3 className="header-title pb-4">More than just a necklace</h3>
+            <p className="card-paragraph pb-2">QT - Queen Tamarrsh Jewelry Studio offers a kaleidoscope of creative possibilities. Select from our array of captivating designs, explore our ready-to-wear collections, or bring your own imagination to the table. With a global reputation and extensive expertise, especially in Europe, QT is dedicated to bringing your distinct vision to life through exquisite jewelry that tells your story in dazzling detail.</p>
             <ul className="flex flex-col md:flex-row gap-8 mb-16">
                 {benefits.map((benefit, idx) => <BenefitCard key={idx} benefit={benefit} />)}
             </ul>

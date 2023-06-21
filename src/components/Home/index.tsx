@@ -10,7 +10,7 @@ import ActionButton from '../ActionButton'
 import { motion } from 'framer-motion'
 
 // * Imgs
-import HomePageGraphic from '@/assets/HomePageGraphic.png'
+import tulips from '@/assets/tulips.png'
 
 // * Types
 import { SelectedPage } from '@/shared/types.ts'
@@ -43,17 +43,17 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
             onViewportEnter={()=> { setSelectedPage(SelectedPage.Home) }}
         >
             <h1 className={h1Styles}>Queen Tamar</h1>
-            <h2 className="cursor-default text-4xl mb-6">Old school steady hand.</h2>
-            <p className="cursor-default font-montserrat mb-8">Welcome to Koolkat, where ink drips old-school and style bleeds cool. Strap in and let our tattoos do the loud talking.</p>
+            <h2 className="cursor-default text-2xl mb-6">Embrace Your Sparkle with Custom Charm.</h2>
+            <p className="cursor-default font-montserrat mb-8 text-sm">Enter the realm of QT, where beads and words unite to create necklaces that perfectly reflect your individuality. Unleash your style and reign supreme with our personalized creations.</p>
             <div className='flex w-full max-w-[206px] justify-between items-center'>
-                <ActionButton children="Book now" setSelectedPage={setSelectedPage} title="Contact us for booking" value={SelectedPage.ContactUs} />
+                <ActionButton children="Order now" setSelectedPage={setSelectedPage} title="Contact us for booking" value={SelectedPage.ContactUs} />
                 <div className="underline">
                     <Link pageName={SelectedPage.Portfolio} setSelectedPage={setSelectedPage} selectedPage={selectedPage} />
                 </div>
             </div>
         </motion.div>
         <motion.img
-            src={HomePageGraphic}
+            src={tulips}
             className={imgStyles}
             alt="Homepage graphics"
             initial="hidden"
