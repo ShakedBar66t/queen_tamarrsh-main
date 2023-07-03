@@ -14,6 +14,13 @@ import { SelectedPage, Benefit } from '@/shared/types'
 
 // * SVGs
 import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from '@heroicons/react/24/solid'
+import FOOTBALL from '@/assets/1913.jpg'
+import GARY from '@/assets/gary.jpg'
+import DUVSHANIA from '@/assets/duvshania.jpg'
+import SUGAR from '@/assets/sugar.jpg'
+import MEGABABE from '@/assets/mega-babe.jpg'
+import SHIFRA from '@/assets/shifra.jpg'
+import BRACELET from '@/assets/bracelet.jpg'
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void
@@ -23,19 +30,42 @@ export default function Benefits({ setSelectedPage }: Props) {
 
     const benefits: Array<Benefit> = [
         {
-            svg: <HomeModernIcon className="circle-icon" />,
-            title: 'Many art Facilities',
-            description: 'Koolkat\'s artistry extends from Tel Aviv\'s Boldline studio to global tattoo platforms. This global exposure enriches his designs, ensuring you receive a unique, world-class tattoo experience.'
+            img: FOOTBALL,
+            title: '1913',
+            description: 'שרשרת מחרוזי קריסטל בגווני ירוק ולבן',
+            price: 199.90,
         },
         {
-            svg: <UserGroupIcon className="circle-icon" />,
-            title: 'Hundreds of customers',
-            description: 'Koolkat\'s experience tattooing hundreds of clients ensures skillful craftsmanship. With each tattoo, he hones his expertise, guaranteeing newcomers benefit from refined technique and artistry in their tattoo journey.'
+            img: GARY,
+            title: 'גרי',
+            description: 'שרשרת מחרוזי אבן טבעי בגווני אדמה',
+            price: 179.90
         },
         {
-            svg: <AcademicCapIcon className="circle-icon" />,
-            title: 'Expert tattoo artist',
-            description: 'Koolkat\'s years of tattooing experience means a mastery of technique and design. Newcomers can trust in his established expertise, providing peace of mind for their first tattoo experience.'
+            img: DUVSHANIA,
+            title: 'דובשנייה',
+            description: 'שרשרת פנינים בשילוב סברובסקי',
+            price: 299.90
+        }, {
+            img: SUGAR,
+            title: 'סוכר',
+            description: 'שרשרת קלאסית מחרוזי קרמיקה',
+            price: 149.90
+        }, {
+            img: MEGABABE,
+            title: 'מגה-בייב',
+            description: 'שרשרת מחרוזי קריסטל מנצנצים בגווני ורוד',
+            price: 199.90
+        }, {
+            img: SHIFRA,
+            title: 'שפרה',
+            description: 'שרשרת שחורה מנצנצת בשילוב חרוזי קריסטל ומתכת',
+            price: 179.90
+        }, {
+            img: BRACELET,
+            title: 'סלט פירות',
+            description: 'צמיד אייקוני מחרוזים אקראיים',
+            price: 84.90
         },
     ]
 
@@ -54,11 +84,17 @@ export default function Benefits({ setSelectedPage }: Props) {
                 hidden: { opacity: 0, x: -60 },
                 visible: { opacity: 1, x: 0 }
             }}>
-            <h3 className="header-title pb-4">More than just a necklace</h3>
-            <p className="card-paragraph pb-2">QT - Queen Tamarrsh Jewelry Studio offers a kaleidoscope of creative possibilities. Select from our array of captivating designs, explore our ready-to-wear collections, or bring your own imagination to the table. With a global reputation and extensive expertise, especially in Europe, QT is dedicated to bringing your distinct vision to life through exquisite jewelry that tells your story in dazzling detail.</p>
-            <ul className="flex flex-col md:flex-row gap-8 mb-16">
-                {benefits.map((benefit, idx) => <BenefitCard key={idx} benefit={benefit} />)}
+            <h3 className="header-title py-4 text-center">Choose your aesthetic</h3>
+            <ul className="md:grid md:grid-cols-3 flex flex-col gap-8 mb-16">
+                {benefits.map((benefit, idx) => (
+                    <BenefitCard
+                        key={idx}
+                        benefit={benefit}
+                        column={idx === benefits.length - 1 ? 'col-span-3' : ''}
+                    />
+                ))}
             </ul>
+
         </motion.div>
 
         <motion.div

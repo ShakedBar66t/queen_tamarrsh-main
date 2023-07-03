@@ -16,8 +16,9 @@ export type Form = {
 }
 
 export type Benefit = {
-  svg: React.ReactElement
+  img: string
   title: string
   description: string
+  price: number
 }
 
