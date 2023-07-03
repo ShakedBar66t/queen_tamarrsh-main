@@ -44,7 +44,6 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
         >
             <h1 className={h1Styles}>Queen Tamarrsh</h1>
             <h2 className="cursor-default text-2xl mb-6">Embrace Your Sparkle with Custom Charm.</h2>
-            <p className="cursor-default font-montserrat mb-8 text-sm">Enter the realm of QT, where beads and words unite to create necklaces that perfectly reflect your individuality. Unleash your style and reign supreme with our personalized creations.</p>
             <div className='flex w-full max-w-[206px] justify-between items-center'>
                 <ActionButton children="Order now" setSelectedPage={setSelectedPage} title="Contact us for booking" value={SelectedPage.ContactUs} />
                 <div className="underline">

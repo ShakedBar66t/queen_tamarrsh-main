@@ -2,19 +2,19 @@
 import { motion } from 'framer-motion'
 
 // * Types
-import { Benefit } from "@/shared/types"
+import { Collection } from "@/shared/types"
 
 type Props = {
-    benefit: Benefit
+    collection: Collection
     column: string
 }
 
 const cardStyles = 'flex flex-col rounded-lg items-center py-12 px-8'
 
-export default function BenefitCard({ benefit, column }: Props) {
+export default function CollectionCard({ collection, column }: Props) {
     return (
         <motion.li
-            key={benefit.title}
+            key={collection.title}
             className={`${cardStyles} ${column}`}
             initial="hidden"
             whileInView="visible"
@@ -25,10 +25,10 @@ export default function BenefitCard({ benefit, column }: Props) {
                 visible: { opacity: 1, x: 0 }
             }}
         >
-            <img src={benefit.img} width={300} alt={benefit.title} />
-            <h3 className="font-extrabold my-4 text-xl text-red-100" dir='rtl'>{benefit.title}</h3>
-            <p className="text-md text-center" dir='rtl'>{benefit.description}</p>
-            <h4 className='font-bold text-green-600 pt-[10px]'>{benefit.price}₪</h4>
+            <img src={collection.img} width={300} alt={collection.title} />
+            <h3 className="font-extrabold my-4 text-xl text-red-100" dir='rtl'>{collection.title}</h3>
+            <p className="text-md text-center" dir='rtl'>{collection.description}</p>
+            <h4 className='font-bold text-green-600 pt-[10px]'>{collection.price}₪</h4>
         </motion.li>
     );
 }

@@ -1,7 +1,7 @@
 
 export enum SelectedPage {
   Home = 'home',
-  Benefits = 'benefits',
+  Collections = 'collections',
   LearnMore = 'learnmore',
   Portfolio = 'portfolio',
   ContactUs = 'contactus',
@@ -15,7 +15,7 @@ export type Form = {
   message: string
 }
 
-export type Benefit = {
+export type Collection = {
   img: string
   title: string
   description: string

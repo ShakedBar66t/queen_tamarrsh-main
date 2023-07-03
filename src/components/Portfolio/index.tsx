@@ -42,9 +42,9 @@ export default function Portfolio({ setSelectedPage } : Props) {
                 visible: { opacity: 1, x: 0 }
             }}
         >
-            <h3 className="card-title">Get old schooled among <span className="text-red-100">hundreds</span> of happy customers</h3>
+            <h3 className="card-title">Get Queen Tamarrsh among <span className="text-red-100">hundreds</span> of happy customers</h3>
             <p className="card-paragraph">
-                Be inspired by many of previous artworks on many costumers worldwide
+                Be inspired by many of previous artworks on many costumers!
             </p>
         </motion.div>
         <motion.div

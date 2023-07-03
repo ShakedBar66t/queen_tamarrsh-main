@@ -42,10 +42,7 @@ export default function ContactUs({ setSelectedPage }: Props) {
         }}
     >
         <div>
-            <h3 className="card-title mb-2 md:text-center"><span className="text-red-100">Schedule a consultation</span> to get inked</h3>
-            <p className="card-paragraph mb-2 md:text-center">
-                Leave your details to make your first step into a new tattoo adventure with Koolkat.
-            </p>
+            <h3 className="card-title mb-2 md:text-center"><span className="text-red-100">!השאר פרטים לייעוץ</span> על שרשרת בעיצוב אישי</h3>
         </div>
         <motion.div
             className="flex gap-12 flex-col items-center justify-center md:flex-row"

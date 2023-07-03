@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 // * Cmps
 import Home from '@/components/Home'
 import Footer from '@/components/Footer'
-import Benefits from '@/components/Benefits'
+import Collections from '@/components/Collections'
 import ContactUs from '@/components/ContactUs'
 import Portfolio from '@/components/Portfolio'
 import MainHeader from '@/components/MainHeader'
@@ -38,7 +38,7 @@ export default function App() {
       setIsMainNavOpen={setIsMainNavOpen}
     />
     <Home selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
-    <Benefits setSelectedPage={setSelectedPage} />
+    <Collections setSelectedPage={setSelectedPage} />
     <Portfolio setSelectedPage={setSelectedPage} />
     <ContactUs setSelectedPage={setSelectedPage} />
     <Footer />
