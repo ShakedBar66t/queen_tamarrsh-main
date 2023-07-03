@@ -13,7 +13,6 @@ import { motion } from 'framer-motion'
 import { SelectedPage, Benefit } from '@/shared/types'
 
 // * SVGs
-import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from '@heroicons/react/24/solid'
 import FOOTBALL from '@/assets/1913.jpg'
 import GARY from '@/assets/gary.jpg'
 import DUVSHANIA from '@/assets/duvshania.jpg'
