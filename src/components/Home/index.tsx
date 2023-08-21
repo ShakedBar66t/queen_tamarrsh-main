@@ -47,7 +47,7 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
             <div className='flex w-full max-w-[206px] justify-between items-center'>
                 <ActionButton children="Order now" setSelectedPage={setSelectedPage} title="Contact us for booking" value={SelectedPage.ContactUs} />
                 <div className="underline">
-                    <Link pageName={SelectedPage.Portfolio} setSelectedPage={setSelectedPage} selectedPage={selectedPage} />
+                    <Link pageName={SelectedPage.Portfolio} setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='0' />
                 </div>
             </div>
         </motion.div>

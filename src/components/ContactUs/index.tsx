@@ -12,7 +12,6 @@ import { motion } from "framer-motion"
 import { SelectedPage } from "@/shared/types"
 
 // * Images
-import QR from '@/assets/qr.png'
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void
@@ -42,7 +41,7 @@ export default function ContactUs({ setSelectedPage }: Props) {
         }}
     >
         <div>
-            <h3 className="card-title mb-2 md:text-center"><span className="text-red-100">!השאר פרטים לייעוץ</span> על שרשרת בעיצוב אישי</h3>
+            <h3 className="card-title mb-2 md:text-center"> Leave your details and get yourself a<span className="text-red-100"> QT!</span> </h3>
         </div>
         <motion.div
             className="flex gap-12 flex-col items-center justify-center md:flex-row"
@@ -57,7 +56,6 @@ export default function ContactUs({ setSelectedPage }: Props) {
         >
             {!isFormSubmitted && <Form setIsFormSubmitted={setIsFormSubmitted} />}
             {isFormSubmitted && <h3 className="text-center py-6">Request has been sent successfully ✅</h3>}
-                <img src={QR} className="object-cover max-w-sm" alt="Contact us graphics" />
         </motion.div>
     </motion.section>
 }

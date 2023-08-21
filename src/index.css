@@ -1,4 +1,3 @@
-
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@700&family=Open+Sans&display=swap');
 
@@ -10,5 +9,24 @@
 @tailwind utilities;
 
 
+  .zoom {
+    position: relative;
+  }
 
+  .zoom img{
+    width: 500px;
+  }
 
+  .imgZoom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    --zoom-x: 50%;
+    --zoom-y: 50%;
+    transform: scale(1.5);
+    pointer-events: none;
+    clip-path: circle(
+        100px at var(--zoom-x) var(--zoom-y)
+    );
+    opacity: 0;
+  }

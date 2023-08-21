@@ -58,10 +58,10 @@ export default function MainNavBar({ selectedPage, isMainNavOpen, isTopOfPage, s
                 <MainNavBtnIcon />
             </button>}
             {((isMainNavOpen && !isAboveMediumScreen) || isAboveMediumScreen) && <ul className={navUlStyles}>
-                <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} pageName="home" />
-                <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} pageName="collections" />
-                <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} pageName="portfolio" />
-                <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} pageName="contact us" />
+                <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='0' pageName="home" />
+                <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='100' pageName="collections" />
+                <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='150' pageName="portfolio" />
+                <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='100' pageName="contact us" />
             </ul>
             }
         </nav>
