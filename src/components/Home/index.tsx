@@ -11,13 +11,11 @@ import { motion } from 'framer-motion'
 
 // * Imgs
 import logo from '@/assets/logo.png'
-import slides from '@/data/carouselData.json';
 
 
 
 // * Types
 import { SelectedPage } from '@/shared/types'
-import Carousel from '../Carousel/Carousel'
 
 type Props = {
     selectedPage: SelectedPage
