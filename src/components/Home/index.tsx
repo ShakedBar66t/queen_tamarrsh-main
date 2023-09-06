@@ -10,10 +10,14 @@ import ActionButton from '../ActionButton'
 import { motion } from 'framer-motion'
 
 // * Imgs
-import tulips from '@/assets/tulips.png'
+import logo from '@/assets/logo.png'
+import slides from '@/data/carouselData.json';
+
+
 
 // * Types
 import { SelectedPage } from '@/shared/types'
+import Carousel from '../Carousel/Carousel'
 
 type Props = {
     selectedPage: SelectedPage
@@ -25,9 +29,9 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
     const isAboveMediumScreens = useMediaQuery('(min-width: 1060px)')
     const isMiniScreens = useMediaQuery('(max-width: 370px)')
 
-    const sectionStyles = `flex main-layout gap-12 h-fit pb-10 md:h-full md:pb-0 ${isAboveMediumScreens ? 'flex-row pt-36' : 'flex-col pt-28'}`
+    const sectionStyles = `flex md:justify-between main-layout gap-12 h-fit pb-10 md:h-full md:pb-0 ${isAboveMediumScreens ? 'flex-row pt-36' : 'flex-col pt-28'}`
     const h1Styles = `logo relative md:before:content-["Queen_Tamarrsh"] before:max-w-[100%] before:absolute before:-top-16 before:-left-8 cursor-default ${isMiniScreens ? 'text-5xl' : 'text-6xl'} before:text-9xl before:text-gray-20-trans before:z-[-1] mb-2 uppercase`
-    const imgStyles = `object-contain ${isAboveMediumScreens ? 'max-w-[600px]' : 'w-full'}`
+    const imgStyles = `object-contain ${isAboveMediumScreens ? 'max-w-[600px] ml-[200px]' : 'w-full'}`
     return <section
         className={sectionStyles}
         id={SelectedPage.Home}>
@@ -42,6 +46,7 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
             }}
             onViewportEnter={()=> { setSelectedPage(SelectedPage.Home) }}
         >
+
             <h1 className={h1Styles}>Queen Tamarrsh</h1>
             <h2 className="cursor-default text-2xl mb-6">Embrace Your Sparkle with Custom Charm.</h2>
             <div className='flex w-full max-w-[206px] justify-between items-center'>
@@ -52,7 +57,7 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
             </div>
         </motion.div>
         <motion.img
-            src={tulips}
+            src={logo}
             className={imgStyles}
             width={500}
             height={300}
@@ -66,5 +71,7 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
                 visible: { opacity: 1, y: 0 }
             }}
         />
+
     </section>
+    
 }

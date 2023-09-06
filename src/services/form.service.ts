@@ -5,7 +5,7 @@ import axios from 'axios'
 // * Types
 import { Form } from '@/shared/types'
 
-const ADMIN_EMAIL = 'tamarshraga1@gmail.com'
+const ADMIN_EMAIL = '5225fe4f9d78b5b56c94f00a0523c973'
 
 async function postForm(form: Form) {
     try {

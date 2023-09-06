@@ -1,0 +1,136 @@
+{
+    "carousel1": {
+        "slides": [
+            {
+                "src": "src/assets/1913.jpg",
+                "alt": "Image 1 for carousel"
+            },
+            {
+                "src": "src/assets/1913-2.jpg",
+                "alt": "Image 2 for carousel"
+            },
+            {
+                "src": "src/assets/1913-3.jpg",
+                "alt": "Image 3 for carousel"
+            }
+        ],
+        "name":"1913",
+        "description": "שרשרת מחרוזי קריסטל בגווני ירוק ולבן",
+        "price": 199.90
+        
+    },
+    "carousel2": {
+        "slides": [
+            {
+                "src": "src/assets/shifra-1.jpeg",
+                "alt": "Image 1 for carousel"
+            },
+            {
+                "src": "src/assets/shifra-2.jpg",
+                "alt": "Image 2 for carousel"
+            },
+            {
+                "src": "src/assets/shifra-3.jpg",
+                "alt": "Image 3 for carousel"
+            }
+        ],
+        "name": "שפרה",
+        "description": "שרשרת שחורה מנצנצת בשילוב חרוזי קריסטל ומתכת",
+        "price": 179.90
+    },
+    "carousel3": {
+        "slides": [
+            {
+                "src": "src/assets/megababe-1.jpg",
+                "alt": "Image 1 for carousel"
+            },
+            {
+                "src": "src/assets/megababe-2.jpg",
+                "alt": "Image 2 for carousel"
+            },
+            {
+                "src": "src/assets/megababe-3.jpg",
+                "alt": "Image 3 for carousel"
+            }
+        ],
+        "name": "מגה בייב",
+        "description": "שרשרת מחרוזי קריסטל מנצנצים בגווני ורוד",
+        "price": 199.90
+    },
+    "carousel4": {
+        "slides": [
+            {
+                "src": "src/assets/gary-1.jpg",
+                "alt": "Image 1 for carousel"
+            },
+            {
+                "src": "src/assets/gary-2.jpg",
+                "alt": "Image 2 for carousel"
+            },
+            {
+                "src": "src/assets/gary-3.jpg",
+                "alt": "Image 3 for carousel"
+            }
+        ],
+        "name": "גרי",
+        "description": "שרשרת מחרוזי אבן טבעי בגווני אדמה",
+        "price": 179.90
+    },
+    "carousel5": {
+        "slides": [
+            {
+                "src": "src/assets/duvshania-1.jpg",
+                "alt": "Image 1 for carousel"
+            },
+            {
+                "src": "src/assets/duvshania-2.jpg",
+                "alt": "Image 2 for carousel"
+            },
+            {
+                "src": "src/assets/duvshania-3.jpg",
+                "alt": "Image 3 for carousel"
+            }
+        ],
+        "name": "דובשנייה",
+        "description": "שרשרת פנינים בשילוב סברובסקי",
+        "price": 299.90
+    },
+    "carousel6": {
+        "slides": [
+            {
+                "src": "src/assets/fruitsalad-1.jpg",
+                "alt": "Image 1 for carousel"
+            },
+            {
+                "src": "src/assets/fruitsalad-2.jpg",
+                "alt": "Image 2 for carousel"
+            },
+            {
+                "src": "src/assets/fruitsalad-3.jpg",
+                "alt": "Image 3 for carousel"
+            }
+        ],
+        "name": "סלט פירות",
+        "description": "צמיד אייקוני מחרוזים אקראיים",
+        "price": 84.90
+    },
+    "carousel7": {
+        "slides": [
+            {
+                "src": "src/assets/sugar-1.jpg",
+                "alt": "Image 1 for carousel"
+            },
+            {
+                "src": "src/assets/sugar-2.jpg",
+                "alt": "Image 2 for carousel"
+            },
+            {
+                "src": "src/assets/sugar-3.jpg",
+                "alt": "Image 3 for carousel"
+            }
+        ],
+        "name": "סוכר",
+        "description": "שרשרת קלאסית מחרוזי קרמיקה",
+        "price": 149.90
+    }
+}
