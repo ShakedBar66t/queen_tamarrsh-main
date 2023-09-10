@@ -2,15 +2,15 @@
     "carousel1": {
         "slides": [
             {
-                "src": "@/assets/1913.jpg",
+                "src": "../../../public/images/1913.jpg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "@/assets/1913-2.jpg",
+                "src": "../../../public/images/1913-2.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "@/assets/1913-3.jpg",
+                "src": "../../../public/images/1913-3.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
@@ -22,15 +22,15 @@
     "carousel2": {
         "slides": [
             {
-                "src": "@/assets/shifra-1.jpeg",
+                "src": "../../../public/images/shifra-1.jpeg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "@/assets/shifra-2.jpg",
+                "src": "../../../public/images/shifra-2.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "@/assets/shifra-3.jpg",
+                "src": "../../../public/images/shifra-3.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
@@ -41,15 +41,15 @@
     "carousel3": {
         "slides": [
             {
-                "src": "@/assets/megababe-1.jpg",
+                "src": "../../../public/images/megababe-1.jpg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "@/assets/megababe-2.jpg",
+                "src": "../../../public/images/megababe-2.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "@/assets/megababe-3.jpg",
+                "src": "../../../public/images/megababe-3.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
@@ -60,15 +60,15 @@
     "carousel4": {
         "slides": [
             {
-                "src": "@/assets/gary-1.jpg",
+                "src": "../../../public/images/gary-1.jpg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "@/assets/gary-2.jpg",
+                "src": "../../../public/images/gary-2.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "@/assets/gary-3.jpg",
+                "src": "../../../public/images/gary-3.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
@@ -79,15 +79,15 @@
     "carousel5": {
         "slides": [
             {
-                "src": "@/assets/duvshania-1.jpg",
+                "src": "../../../public/images/duvshania-1.jpg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "@/assets/duvshania-2.jpg",
+                "src": "../../../public/images/duvshania-2.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "@/assets/duvshania-3.jpg",
+                "src": "../../../public/images/duvshania-3.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
@@ -98,15 +98,15 @@
     "carousel6": {
         "slides": [
             {
-                "src": "@/assets/fruitsalad-1.jpg",
+                "src": "../../../public/images/fruitsalad-1.jpg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "@/assets/fruitsalad-2.jpg",
+                "src": "../../../public/images/fruitsalad-2.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "@/assets/fruitsalad-3.jpg",
+                "src": "../../../public/images/fruitsalad-3.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
@@ -117,15 +117,15 @@
     "carousel7": {
         "slides": [
             {
-                "src": "@/assets/sugar-1.jpg",
+                "src": "../../../public/images/sugar-1.jpg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "@/assets/sugar-2.jpg",
+                "src": "../../../public/images/sugar-2.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "@/assets/sugar-3.jpg",
+                "src": "../../../public/images/sugar-3.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
