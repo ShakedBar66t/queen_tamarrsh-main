@@ -11,6 +11,7 @@ import MainHeader from '@/components/MainHeader'
 
 // * Types
 import { SelectedPage } from '@/shared/types'
+import Policy from './components/Policy'
 
 export default function App() {
 
@@ -40,6 +41,7 @@ export default function App() {
     <Home selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
     <Collections setSelectedPage={setSelectedPage} />
     <Portfolio setSelectedPage={setSelectedPage} />
+    <Policy />
     <ContactUs setSelectedPage={setSelectedPage} />
     <Footer />
   </div>

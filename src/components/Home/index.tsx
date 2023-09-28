@@ -27,7 +27,6 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
     const isAboveMediumScreens = useMediaQuery('(min-width: 1060px)')
     const isMiniScreens = useMediaQuery('(max-width: 370px)')
 
-    console.log('Welcome to Queesh :)')
     
     const sectionStyles = `flex md:justify-between main-layout gap-12 h-fit pb-10 md:h-full md:pb-0 ${isAboveMediumScreens ? 'flex-row pt-36' : 'flex-col pt-28'}`
     const h1Styles = `logo relative md:before:content-["Queen_Tamarrsh"] before:max-w-[100%] before:absolute before:-top-16 before:-left-8 cursor-default ${isMiniScreens ? 'text-5xl' : 'text-6xl'} before:text-9xl before:text-gray-20-trans before:z-[-1] mb-2 uppercase`

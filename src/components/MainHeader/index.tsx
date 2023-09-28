@@ -7,6 +7,7 @@ import { SelectedPage } from '@/shared/types'
 
 // * SVG
 import  Logo  from '@/assets/logo.svg'
+import WhiteLogo from '@/assets/white-logo.png'
 
 type Props = {
     isTopOfPage: boolean
@@ -25,7 +26,7 @@ export default function MainHeader({ isTopOfPage, selectedPage, isMainNavOpen, s
     return <header className={headerStyles}>
         <div className="main-layout items-center flex-between gap-16 py-6">
             {/* <h1 title="Koolkat tattoos" className={h1LogoStyles}>QT</h1> */}
-            <img alt="QT Logo" className='max-w-[70px]' src={Logo} />
+            <img alt="QT Logo" className={isTopOfPage ? 'max-w-[70px]' : 'max-w-[50px]'} src={isTopOfPage ? Logo : WhiteLogo} />
             <MainNavBar
                 isTopOfPage={isTopOfPage}
                 selectedPage={selectedPage}
