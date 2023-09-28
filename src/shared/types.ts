@@ -5,6 +5,7 @@ export enum SelectedPage {
   LearnMore = 'learnmore',
   Portfolio = 'portfolio',
   ContactUs = 'contactus',
+  Policy = 'policy',
   Login = 'login',
 }
 

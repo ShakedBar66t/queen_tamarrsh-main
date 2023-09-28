@@ -41,7 +41,7 @@ export default function App() {
     <Home selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
     <Collections setSelectedPage={setSelectedPage} />
     <Portfolio setSelectedPage={setSelectedPage} />
-    <Policy />
+    <Policy setSelectedPage={setSelectedPage} />
     <ContactUs setSelectedPage={setSelectedPage} />
     <Footer />
   </div>

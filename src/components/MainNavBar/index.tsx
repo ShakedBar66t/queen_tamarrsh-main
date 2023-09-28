@@ -61,6 +61,7 @@ export default function MainNavBar({ selectedPage, isMainNavOpen, isTopOfPage, s
                 <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='0' pageName="home" />
                 <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='100' pageName="collections" />
                 <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='150' pageName="portfolio" />
+                <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='90' pageName="policy" />
                 <Link setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='100' pageName="contact us" />
             </ul>
             }

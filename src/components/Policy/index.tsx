@@ -1,7 +1,28 @@
+// *Modules
+import {motion} from "framer-motion"
 
-export default function Policy() {
+// *Types
+import { SelectedPage } from "@/shared/types"
 
-    return (
+type Props = {
+    setSelectedPage: (value: SelectedPage) => void
+}
+
+export default function Policy({setSelectedPage}: Props) {
+
+    return <motion.section
+    id={SelectedPage.Policy}
+    onViewportEnter={() => {setSelectedPage(SelectedPage.Policy)}}
+    initial="hidden"
+    whileInView="visible"
+    transition={{duration: 0.5}}
+    viewport={{once: true, amount: 0.1}}
+    variants={{
+        hidden: { opacity: 0, x: -60 },
+        visible: { opacity: 1, x: 0 }
+    }}
+    >
+
         <div className="bg-[#1f1e1ef5] py-[20px]">
             <h1 className="text-center text-gray-20 font-bold text-2xl underline">הוראות טיפול</h1>
             <div className="text-gray-20 text-right mx-6">
@@ -36,5 +57,6 @@ export default function Policy() {
                 . במידה והלקוח מעוניין לממש את תעודת האחראיות שלו, <span className="text-red-100">הלקוח/ה צריך/ה להגיע</span> לסטודיו שלי שנמצא בחיפה או להשתמש בשירות השליחויות שלנו
             </div>
         </div>
-    )
+    
+    </motion.section>
 }
