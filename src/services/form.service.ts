@@ -39,9 +39,9 @@ function validateName(username: string) {
 
 function getEmptyForm() {
     return {
-        name: '',
-        email: '',
-        mobile: '',
+        user_name: '',
+        user_email: '',
+        phone_number: '',
         message: ''
     }
 }

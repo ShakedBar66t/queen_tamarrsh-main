@@ -10,9 +10,9 @@ export enum SelectedPage {
 }
 
 export type Form = {
-  name: string
-  email: string
-  mobile: string
+  user_name: string
+  user_email: string
+  phone_number: string
   message: string
 }
 
