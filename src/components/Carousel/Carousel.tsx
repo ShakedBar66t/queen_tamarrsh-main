@@ -29,7 +29,7 @@ const Carousel: React.FC<CarouselProps> = ({ data, description, price, name }) =
             <div className="carousel">
                 <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide} />
                 {data.map((item, idx) => (
-                    <img src={item.src} alt={item.alt} key={idx} className={slide === idx ? "slide" : "slide slide-hidden"} />
+                    <img src={item.src} loading="lazy" alt={item.alt} key={idx} className={slide === idx ? "slide" : "slide slide-hidden"} />
                 ))}
                 <BsArrowRightCircleFill className="arrow arrow-right" onClick={nextSlide} />
                 <span className="indicators">
