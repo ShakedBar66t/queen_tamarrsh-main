@@ -9,11 +9,6 @@ import ActionButton from '../ActionButton'
 // * Modules
 import { motion } from 'framer-motion'
 
-// * Imgs
-import logo from '@/assets/logo.png'
-
-
-
 // * Types
 import { SelectedPage } from '@/shared/types'
 
@@ -25,14 +20,9 @@ type Props = {
 export default function Home({ setSelectedPage, selectedPage }: Props) {
 
     const isAboveMediumScreens = useMediaQuery('(min-width: 1060px)')
-    const isMiniScreens = useMediaQuery('(max-width: 370px)')
-
     
-    const sectionStyles = `flex md:justify-between main-layout gap-12 h-fit pb-10 md:h-full md:pb-0 ${isAboveMediumScreens ? 'flex-row pt-36' : 'flex-col pt-28'}`
-    const h1Styles = `logo relative md:before:content-["Queen_Tamarrsh"] before:max-w-[100%] before:absolute before:-top-16 before:-left-8 cursor-default ${isMiniScreens ? 'text-5xl' : 'text-6xl'} before:text-9xl before:text-gray-20-trans before:z-[-1] mb-2 uppercase`
-    const imgStyles = `object-contain ${isAboveMediumScreens ? 'max-w-[600px] ml-[200px]' : 'w-full'}`
+    const imgStyles = `object-contain mb-4 ${isAboveMediumScreens ? 'max-w-[600px]' : 'w-full'}`
     return <section
-        className={sectionStyles}
         id={SelectedPage.Home}>
         <motion.div
             initial="hidden"
@@ -44,21 +34,12 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
                 visible: { opacity: 1, x: 0 }
             }}
             onViewportEnter={()=> { setSelectedPage(SelectedPage.Home) }}
+            className={`flex flex-col my-8 justify-center items-center main-layout gap-16 h-fit pb-10 md:h-full md:pb-0 ${isAboveMediumScreens ? 'flex-row pt-36' : 'flex-col pt-28'}`}
         >
-
-            <h1 className={h1Styles}>Queen Tamarrsh</h1>
-            <h2 className="cursor-default text-2xl mb-6">Embrace Your Sparkle with Custom Charm.</h2>
-            <div className='flex w-full max-w-[206px] justify-between items-center'>
-                <ActionButton children="Order now" setSelectedPage={setSelectedPage} title="Contact us for booking" value={SelectedPage.ContactUs} />
-                <div className="underline">
-                    <Link pageName={SelectedPage.Portfolio} setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='0' />
-                </div>
-            </div>
-        </motion.div>
-        <motion.img
-            src={logo}
+             <motion.img
+            src="https://res.cloudinary.com/drld1bejg/image/upload/v1705962883/IMG_4659-removebg_yv0740.png"
             className={imgStyles}
-            width={500}
+            width={600}
             height={300}
             alt="Homepage graphics"
             initial="hidden"
@@ -70,6 +51,14 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
                 visible: { opacity: 1, y: 0 }
             }}
         />
+
+            <div className='flex w-full max-w-[260px] sm:max-w-[300px] justify-between items-center'>
+                <ActionButton children="Order now" setSelectedPage={setSelectedPage} title="Contact us for booking" value={SelectedPage.ContactUs} />
+                <div className="underline">
+                    <Link pageName={SelectedPage.Portfolio} setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='0' />
+                </div>
+            </div>
+        </motion.div>
 
     </section>
     

@@ -40,9 +40,9 @@ export default function App() {
     />
     <Home selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
     <Collections setSelectedPage={setSelectedPage} />
+    <ContactUs setSelectedPage={setSelectedPage} />
     <Portfolio setSelectedPage={setSelectedPage} />
     <Policy setSelectedPage={setSelectedPage} />
-    <ContactUs setSelectedPage={setSelectedPage} />
     <Footer />
   </div>
 }

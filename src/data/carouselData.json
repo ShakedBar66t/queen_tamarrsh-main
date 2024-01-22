@@ -2,135 +2,130 @@
     "carousel1": {
         "slides": [
             {
-                "src": "/1913.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705959070/SUKAR2_wtmlwq.jpg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "/1913-2.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705959074/tamarsh-109_copy_saorzh.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "/1913-3.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705959071/SUGAR4_kxpe8p.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
-        "name":"1913",
-        "description": "שרשרת מחרוזי קריסטל בגווני ירוק ולבן",
-        "price": 199.90
-        
+        "name": "סוכר",
+        "description": "קלאסית, מתאימה לכולם",
+        "price": 149.90
     },
-    "carousel2": {
+    "carousel6": {
         "slides": [
             {
-                "src": "/shifra-1.jpeg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705954494/MEGABABE2_j2x4yy.jpg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "/shifra-2.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705954493/MEGABABE4_rn9f4i.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "/shifra-3.jpg",
-                "alt": "Image 3 for carousel"
-            }
-        ],
-        "name": "שפרה",
-        "description": "שרשרת שחורה מנצנצת בשילוב חרוזי קריסטל ומתכת",
-        "price": 179.90
-    },
-    "carousel3": {
-        "slides": [
-            {
-                "src": "/megababe-1.jpg",
-                "alt": "Image 1 for carousel"
-            },
-            {
-                "src": "/megababe-2 new.jpg",
-                "alt": "Image 2 for carousel"
-            },
-            {
-                "src": "/megababe-3.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705954493/MEGABABE7_blhuoe.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
         "name": "מגה בייב",
-        "description": "שרשרת מחרוזי קריסטל מנצנצים בגווני ורוד",
+        "description": "את יודעת שאת אחת כזאת",
+        "price": 199.90
+    },
+    "carousel3": {
+        "slides": [
+            {
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705953357/HAIFA2_blpege.jpg",
+                "alt": "Image 1 for carousel"
+            },
+            {
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705953362/HAIFA4_udvfmo.jpg",
+                "alt": "Image 2 for carousel"
+            },
+            {
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705953359/HAIFA3_k6wmyc.jpg",
+                "alt": "Image 3 for carousel"
+            }
+        ],
+        "name": "1913",
+        "description": "הירוקה מהכרמל",
         "price": 199.90
     },
     "carousel4": {
         "slides": [
             {
-                "src": "/gary-1.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705954049/GERY5_vyp7lz.jpg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "/gary-2.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705954047/GERY4_lycqqi.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "/gary-3.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705954048/GARY10_d8jc7p.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
         "name": "גרי",
-        "description": "שרשרת מחרוזי אבן טבעי בגווני אדמה",
+        "description": "למאמא טבע",
+        "price": 179.90
+    },
+    "carousel2": {
+        "slides": [
+            {
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705954199/SHIFRA4_mszyln.jpg",
+                "alt": "Image 1 for carousel"
+            },
+            {
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705954202/SHIFRA2_ijwm9k.jpg",
+                "alt": "Image 2 for carousel"
+            }
+        ],
+        "name": "שפרה",
+        "description": "לכלבות כוסיות",
         "price": 179.90
     },
     "carousel5": {
         "slides": [
             {
-                "src": "/duvshania-1.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705958882/DUVSHANIA2_xvhuql.jpg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "/duvshania-2.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705958884/DUVSHANIA4_x9zmls.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "/duvshania-3.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705958887/DUVSHANIA3_gpdlmi.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
         "name": "דובשנייה",
-        "description": "שרשרת פנינים בשילוב סברובסקי",
+        "description": "פנינים וסברובסקי למביני עניין",
         "price": 299.90
-    },
-    "carousel6": {
-        "slides": [
-            {
-                "src": "/fruitsalad-1.jpg",
-                "alt": "Image 1 for carousel"
-            },
-            {
-                "src": "/fruitsalad-2.jpg",
-                "alt": "Image 2 for carousel"
-            },
-            {
-                "src": "/fruitsalad-3.jpg",
-                "alt": "Image 3 for carousel"
-            }
-        ],
-        "name": "סלט פירות",
-        "description": "צמיד אייקוני מחרוזים אקראיים",
-        "price": 84.90
     },
     "carousel7": {
         "slides": [
             {
-                "src": "/sugar-1.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705958975/PEROT1_pd6qnp.jpg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "/sugar-2.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705958976/PEROT5_xttzqu.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "/sugar-3.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705958971/PEROT2_f2upgo.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
-        "name": "סוכר",
-        "description": "שרשרת קלאסית מחרוזי קרמיקה",
-        "price": 149.90
+        "name": "סלט פירות",
+        "description": "משהו מתוק בצד",
+        "price": 84.90
     }
 }
