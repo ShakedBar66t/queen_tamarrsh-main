@@ -28,7 +28,7 @@ export default function Portfolio({ setSelectedPage } : Props) {
 
     const imgs: string[] = [CLIENT1, CLIENT2, CLIENT3, CLIENT4, CLIENT5, CLIENT6, CLIENT7, CLIENT8]
 
-    return <section className="min-h-full pt-14 w-full bg-gray-500-trans flex my-14 flex-col gap-6">
+    return <section className="min-h-full w-full bg-gray-500-trans flex my-14 flex-col gap-6">
         <motion.div
             className="main-layout flex flex-col gap-6 text-gray-20"
             initial="hidden"
@@ -42,10 +42,6 @@ export default function Portfolio({ setSelectedPage } : Props) {
                 visible: { opacity: 1, x: 0 }
             }}
         >
-            <h3 className="card-title">Get Queen Tamarrsh among <span className="text-red-100">hundreds</span> of happy customers</h3>
-            <p className="card-paragraph">
-                Be inspired by many of previous artworks on many costumers!
-            </p>
         </motion.div>
         <motion.div
             className="mt-4 w-full overflow-x-auto overflow-y-hidden"
