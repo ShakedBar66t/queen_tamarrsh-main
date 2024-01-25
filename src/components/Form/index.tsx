@@ -61,7 +61,7 @@ export default function Form({ setIsFormSubmitted }: Props) {
         ev.preventDefault()
         try {
             if (elForm?.current) {
-                await emailjs.sendForm('service_ejn0kj5', 'template_t6cbuom', elForm.current, 'OI1EFj42k91HMABEl')
+                await emailjs.sendForm('service_mx36zw6', 'template_t6cbuom', elForm.current, 'W8Krkaao8KQiDax8l')
                 setIsFormSubmitted(true)
             }
         } catch (err) {

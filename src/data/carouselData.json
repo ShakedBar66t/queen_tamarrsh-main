@@ -131,20 +131,20 @@
     "carousel8": {
         "slides": [
             {
-                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1706178929/IMG_4177_en5plr.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1706199476/IMG_8343_afzrhb.jpg",
                 "alt": "Image 1 for carousel"
             },
             {
-                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705677573/GERY3_md70ub.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1706199969/FullSizeRender_2_zzolte.jpg",
                 "alt": "Image 2 for carousel"
             },
             {
-                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1706178679/000060660037_ah3yes.jpg",
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1706199991/unnamed_gen24y.jpg",
                 "alt": "Image 3 for carousel"
             }
         ],
         "name": "סלט בהרכבה",
         "description": "שרשרת בעיצוב אישי",
-        "price": "280"
+        "price": "280-530"
     }
 }
