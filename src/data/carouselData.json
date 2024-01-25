@@ -34,7 +34,7 @@
             }
         ],
         "name": "מגה בייב",
-        "description": "את יודעת שאת אחת כזאת",
+        "description": " כי את הכי שווה",
         "price": 249
     },
     "carousel3": {
@@ -72,7 +72,7 @@
             }
         ],
         "name": "גרי",
-        "description": "למאמא טבע",
+        "description": " תודה לאמא טבע",
         "price": 179
     },
     "carousel2": {
@@ -87,7 +87,7 @@
             }
         ],
         "name": "שפרה",
-        "description": "לכלבות כוסיות",
+        "description": " שחורה ואצילית",
         "price": 179
     },
     "carousel5": {
@@ -127,5 +127,24 @@
         "name": "סלט פירות",
         "description": "משהו מתוק בצד",
         "price": 99
+    },
+    "carousel8": {
+        "slides": [
+            {
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1706178929/IMG_4177_en5plr.jpg",
+                "alt": "Image 1 for carousel"
+            },
+            {
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1705677573/GERY3_md70ub.jpg",
+                "alt": "Image 2 for carousel"
+            },
+            {
+                "src": "https://res.cloudinary.com/drld1bejg/image/upload/v1706178679/000060660037_ah3yes.jpg",
+                "alt": "Image 3 for carousel"
+            }
+        ],
+        "name": "סלט בהרכבה",
+        "description": "שרשרת בעיצוב אישי",
+        "price": "280"
     }
 }

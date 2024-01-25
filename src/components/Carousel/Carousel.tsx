@@ -10,7 +10,7 @@ type Slide = {
 type CarouselProps = {
     data: Slide[];
     description: string;
-    price: number;
+    price: number | string;
     name: string;
     className?: string;
 };

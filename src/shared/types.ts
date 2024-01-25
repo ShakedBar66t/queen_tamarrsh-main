@@ -20,6 +20,6 @@ export type Collection = {
   img: string
   title: string
   description: string
-  price: number
+  price: number | string
 }
 
