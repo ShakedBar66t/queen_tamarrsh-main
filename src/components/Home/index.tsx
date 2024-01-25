@@ -21,7 +21,7 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
 
     const isAboveMediumScreens = useMediaQuery('(min-width: 1060px)')
     
-    const imgStyles = `object-contain mb-4 ${isAboveMediumScreens ? 'max-w-[600px]' : 'w-full'}`
+    const imgStyles = `object-contain rotate-[5deg] ${isAboveMediumScreens ? 'max-w-[500px]' : 'w-full'}`
     return <section
         id={SelectedPage.Home}>
         <motion.div
@@ -53,8 +53,8 @@ export default function Home({ setSelectedPage, selectedPage }: Props) {
         />
 
             <div className='flex w-full max-w-[260px] sm:max-w-[300px] justify-between items-center'>
-                <ActionButton children="Order now" setSelectedPage={setSelectedPage} title="Contact us for booking" value={SelectedPage.ContactUs} />
-                <div className="underline">
+                <ActionButton  children="Order now" setSelectedPage={setSelectedPage} title="Contact us for booking" value={SelectedPage.ContactUs} />
+                <div className="underline lora">
                     <Link pageName={SelectedPage.Portfolio} setSelectedPage={setSelectedPage} selectedPage={selectedPage} offset='0' />
                 </div>
             </div>

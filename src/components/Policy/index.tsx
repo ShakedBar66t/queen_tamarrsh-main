@@ -23,27 +23,30 @@ export default function Policy({ setSelectedPage }: Props) {
         }}
     >
 
-        <div className="bg-[#1f1e1ef5] py-[20px]" dir="rtl">
-            <h1 className="text-center text-gray-20 font-bold text-2xl mb-2 underline">הוראות טיפול</h1>
-            <ul className="text-gray-20 text-right mx-6 list-disc">
-                <li>
-                    <span className="text-red-100">להמנע</span> ממגע עם מים, בשמים וחומרי ניקוי.
-                </li>
-                <hr className="border-none pt-3" />
-                <li>
-                    יש <span className="text-red-100">להסיר</span>  לפני פעילות ספורטיבית, מקלחת ושינה.
-                </li>
-                <hr className="border-none pt-3" />
-                <li>
-                    מומלץ <span className="text-red-100">לשמור</span> את התכשיטים באריזה מקורית או במקום יבש ללא לחות.
-                </li>
-            </ul>
+        <div className="bg-[#1f1e1ef5] md:flex md:flex-row md:justify-evenly md:mt-20 p-5 " dir="rtl">
+            <div className="p-5 m-5 rounded-lg border-4 md:m-10 md:p-10 md:w-[50%] fredoka">
+                <h1 className="text-center text-gray-20 font-bold text-2xl mb-2 ">הוראות טיפול</h1>
+                <ul className="text-white text-right mx-6 list-disc">
+                    <li>
+                        להמנע ממגע עם מים, בשמים וחומרי ניקוי.
+                    </li>
+                    <hr className="border-none pt-3" />
+                    <li>
+                        יש להסיר  לפני פעילות ספורטיבית, מקלחת ושינה.
+                    </li>
+                    <hr className="border-none pt-3" />
+                    <li>
+                        מומלץ לשמור את התכשיטים באריזה מקורית או במקום יבש ללא לחות.
+                    </li>
+                </ul>
+            </div>
+            <div className="p-5 m-5 rounded-lg border-4 md:m-10 md:p-10 md:w-[50%] fredoka">
+                <h2 className="text-center font-bold text-2xl pb-[20px] text-gray-20">אחריות</h2>
+                <div className="text-gray-20 text-right list-disc" dir="rtl">
+                    התכשיטים נקנים עם אחריות של 3 חודשים מרגע הרכישה, ואין אפשרות להחזרה אלא לתיקונים. האחריות לשימוש סביר ואינה כוללת נזקים שנגרמו משימוש וטיפול לקויים. לא תינתן אחריות לאובדן או גניבה.
 
-            <h2 className="text-center font-bold text-2xl pt-[20px] underline text-gray-20">אחריות</h2>
-            <div className="text-gray-20 text-right mx-6 list-disc" dir="rtl">
-                התכשיטים נקנים עם אחריות של 3 חודשים מרגע הרכישה, ואין אפשרות להחזרה אלא לתיקונים. האחריות לשימוש סביר ואינה כוללת נזקים שנגרמו משימוש וטיפול לקויים. לא תינתן אחריות לאובדן או גניבה.
-
-                תהליך התיקון יתבצע בסטודיו שלנו בחיפה או באמצעות שירות השליחויות שלנו.
+                    תהליך התיקון יתבצע בסטודיו שלנו בחיפה או באמצעות שירות השליחויות שלנו.
+                </div>
             </div>
 
         </div>

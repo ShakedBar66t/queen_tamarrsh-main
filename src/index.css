@@ -4,31 +4,45 @@
 @import './styles/base.css';
 @import './styles/helpers.css';
 
+@font-face {
+  font-family: fredoka;
+  src: url(../public/fonts/Fredoka-Regular.ttf)
+}
+
+.fredoka {
+  font-family: fredoka;
+}
+
+@font-face {
+  font-family: lora;
+  src: url(../public/fonts/Lora-Regular.ttf)
+}
+
+.lora {
+  font-family: lora
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-  .zoom {
-    position: relative;
-  }
+.zoom {
+  position: relative;
+}
 
-  .zoom img{
-    width: 500px;
-  }
+.zoom img {
+  width: 500px;
+}
 
-  .imgZoom {
-    position: absolute;
-    left: 0;
-    top: 0;
-    --zoom-x: 50%;
-    --zoom-y: 50%;
-    transform: scale(1.5);
-    pointer-events: none;
-    clip-path: circle(
-        100px at var(--zoom-x) var(--zoom-y)
-    );
-    opacity: 0;
-  }
-
-  
+.imgZoom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  --zoom-x: 50%;
+  --zoom-y: 50%;
+  transform: scale(1.5);
+  pointer-events: none;
+  clip-path: circle(100px at var(--zoom-x) var(--zoom-y));
+  opacity: 0;
+}

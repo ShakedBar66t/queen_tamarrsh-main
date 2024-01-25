@@ -22,7 +22,7 @@ export default function MainHeader({ isTopOfPage, selectedPage, isMainNavOpen, s
     const headerStyles = `fixed w-full top-0 z-30 bg-gray-500-trans`
 
     return <header className={headerStyles}>
-        <div className="main-layout items-center flex-between gap-16 py-6">
+        <div className="main-layout items-center flex-between gap-16 py-6 lora">
             <img alt="QT Logo" onClick={() => {
                 setSelectedPage(SelectedPage.Home)
                 window.scrollTo({

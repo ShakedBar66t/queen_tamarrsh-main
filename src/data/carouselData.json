@@ -16,7 +16,7 @@
         ],
         "name": "סוכר",
         "description": "קלאסית, מתאימה לכולם",
-        "price": 149.90
+        "price": 149
     },
     "carousel6": {
         "slides": [
@@ -35,7 +35,7 @@
         ],
         "name": "מגה בייב",
         "description": "את יודעת שאת אחת כזאת",
-        "price": 199.90
+        "price": 249
     },
     "carousel3": {
         "slides": [
@@ -54,7 +54,7 @@
         ],
         "name": "1913",
         "description": "הירוקה מהכרמל",
-        "price": 199.90
+        "price": 249
     },
     "carousel4": {
         "slides": [
@@ -73,7 +73,7 @@
         ],
         "name": "גרי",
         "description": "למאמא טבע",
-        "price": 179.90
+        "price": 179
     },
     "carousel2": {
         "slides": [
@@ -88,7 +88,7 @@
         ],
         "name": "שפרה",
         "description": "לכלבות כוסיות",
-        "price": 179.90
+        "price": 179
     },
     "carousel5": {
         "slides": [
@@ -107,7 +107,7 @@
         ],
         "name": "דובשנייה",
         "description": "פנינים וסברובסקי למביני עניין",
-        "price": 299.90
+        "price": 379
     },
     "carousel7": {
         "slides": [
@@ -126,6 +126,6 @@
         ],
         "name": "סלט פירות",
         "description": "משהו מתוק בצד",
-        "price": 84.90
+        "price": 99
     }
 }

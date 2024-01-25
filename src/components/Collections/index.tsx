@@ -27,7 +27,7 @@ export default function Collections({ setSelectedPage }: Props) {
                     visible: { opacity: 1, x: 0 }
                 }}
             >
-                <h3 className="header-title py-4 text-center">Choose your aesthetic</h3>
+                <h3 className="header-title py-4 text-center lora">Choose your aesthetic</h3>
                 <ul className="md:grid md:grid-cols-3 flex flex-col gap-8 mb-16 sm:grid sm:justify-center">
                     {carouselDataArray.map((carousel, index) => (
                         <Carousel

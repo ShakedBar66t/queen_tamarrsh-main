@@ -30,7 +30,7 @@ export default function ContactUs({ setSelectedPage }: Props) {
     return <motion.section
         id={SelectedPage.ContactUs}
         onViewportEnter={() => { setSelectedPage(SelectedPage.ContactUs) }}
-        className="main-layout py-12 flex flex-col gap-8"
+        className="main-layout py-12 flex flex-col gap-8 lora"
         initial="hidden"
         whileInView="visible"
         transition={{ duration: 0.5 }}
@@ -41,7 +41,7 @@ export default function ContactUs({ setSelectedPage }: Props) {
         }}
     >
         <div>
-            <h3 className="card-title mb-2 md:text-center"> Leave your details and get yourself a<span className="text-red-100"> QT!</span> </h3>
+            <h3 className="card-title mb-2 md:text-center lora"> Leave your details and get yourself a<span className="text-red-100"> QT!</span> </h3>
         </div>
         <motion.div
             className="flex gap-12 flex-col items-center justify-center md:flex-row"
@@ -55,7 +55,7 @@ export default function ContactUs({ setSelectedPage }: Props) {
             }}
         >
             {!isFormSubmitted && <Form setIsFormSubmitted={setIsFormSubmitted} />}
-            {isFormSubmitted && <h3 className="text-center py-6">Request has been sent successfully ✅</h3>}
+            {isFormSubmitted && <h3 className="text-center py-6 lora">Request has been sent successfully ✅</h3>}
         </motion.div>
     </motion.section>
 }

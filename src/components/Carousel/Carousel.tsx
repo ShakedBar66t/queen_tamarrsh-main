@@ -38,19 +38,19 @@ const Carousel: React.FC<CarouselProps> = ({ data, description, price, name }) =
         intervalRef.current = intervalId
     }
 
-    const mouseOver = (imgId: string) => {
-        setCurrentImgId(imgId)
-        const intervalId = setInterval(()=>{
-            setMouseSlide(mouseSlide === data.length - 1 ? 0 : mouseSlide + 1)
-        }, 1500)
-        intervalRef.current = intervalId
-    }
+    // const mouseOver = (imgId: string) => {
+    //     setCurrentImgId(imgId)
+    //     const intervalId = setInterval(()=>{
+    //         setMouseSlide(mouseSlide === data.length - 1 ? 0 : mouseSlide + 1)
+    //     }, 1500)
+    //     intervalRef.current = intervalId
+    // }
 
-    const mouseLeave = () => {
-        setCurrentImgId(null)
-        const intervalId = intervalRef.current
-        if (intervalId) clearInterval(intervalId)
-    }
+    // const mouseLeave = () => {
+    //     setCurrentImgId(null)
+    //     const intervalId = intervalRef.current
+    //     if (intervalId) clearInterval(intervalId)
+    // }
 
     const currentSlide = currentImgId ? mouseSlide : slide
 
@@ -59,7 +59,7 @@ const Carousel: React.FC<CarouselProps> = ({ data, description, price, name }) =
             <div className="carousel">
                 <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide} />
                 {data.map((item, idx) => (
-                    <div key={idx} onMouseOver={() => mouseOver(item.src)} onMouseLeave={mouseLeave} onClick={()=> clickImage(item.src)}>
+                    <div key={idx} onClick={()=> clickImage(item.src)}>
                         <img src={item.src} loading="lazy" alt={item.alt} style={{
                             aspectRatio: "auto",
                             height: "auto",
@@ -77,9 +77,9 @@ const Carousel: React.FC<CarouselProps> = ({ data, description, price, name }) =
 
             </div>
             <div className="flex text-center gap-1 flex-col">
-                <h1 className="text-bold text-lg text-red-100 font-bold ">{name}</h1>
-                <h5 className="underline text-green-600">{price}₪</h5>
-                <p className="text-sm text-gray-600">{description}</p>
+                <h1 className="text-bold text-lg text-red-100 font-bold fredoka ">{name}</h1>
+                <h5 className="underline">{price}₪</h5>
+                <p className="text-sm text-gray-600 fredoka">{description}</p>
             </div>
         </div>
     );
