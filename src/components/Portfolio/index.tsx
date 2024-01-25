@@ -15,8 +15,6 @@ import CLIENT3 from '@/assets/CLIENT3.jpeg'
 import CLIENT4 from '@/assets/CLIENT4.jpeg'
 import CLIENT5 from '@/assets/CLIENT5.jpeg'
 import CLIENT6 from '@/assets/CLIENT6.jpeg'
-import CLIENT7 from '@/assets/CLIENT7.jpeg'
-import CLIENT8 from '@/assets/CLIENT8.jpeg'
 
 
 type Props = {
@@ -26,7 +24,7 @@ type Props = {
 
 export default function Portfolio({ setSelectedPage } : Props) {
 
-    const imgs: string[] = [CLIENT1, CLIENT2, CLIENT3, CLIENT4, CLIENT5, CLIENT6, CLIENT7, CLIENT8]
+    const imgs: string[] = [CLIENT1, CLIENT2, CLIENT3, CLIENT4, CLIENT5, CLIENT6]
 
     return <section className="min-h-full w-full bg-gray-500-trans flex my-14 flex-col gap-6">
         <motion.div
